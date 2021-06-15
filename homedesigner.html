@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>WeSign</title>
+</head>
+
+<body class="homeUser">
+    <article class="profile profileUser">
+        <section class="profileBg">
+
+            <div class="profileHeader">
+
+                <img src="./data/images/user.png" alt="">
+
+                <h2 class='profileName'>...</h2>
+
+                <div class="profileEdit click">
+                    <img src="./data/images/Lapiz.svg" alt="">
+                    <p><u>Editar Perfil</u></p>
+                </div>
+
+            </div>
+
+            <div class="profileItems">
+                <div class="profileItem">
+                    <img src="./data/images/cake.svg" alt="">
+                    <p class="profileAge">...</p>
+                </div>
+
+                <div class="profileItem ">
+                    <img src="./data/images/job.svg" alt="">
+                    <p class='profileCollege'>...</p>
+                </div>
+
+                <div class="profileItem ">
+                    <img src="./data/images/Lapiz.svg" alt="">
+                    <p class="profilePro">...</p>
+                </div>
+
+                <div class="profileItem">
+                    <img src="./data/images/letter.svg" alt="">
+                    <p class="profileEmail">...</p>
+                </div>
+
+            </div>
+            <div class="profileItem" id="pf2">
+                <p id="logOut"><u>Cerrar Sesión</u></p>
+            </div>
+
+        </section>
+    </article>
+
+    <article class="content contentUser scroll">
+
+        <section class="jobsContainer myJobs">
+            <h3>Tus proyectos</h3>
+
+        </section>
+
+        <section class="jobsContainer offerJobs">
+            <h3>Proyectos para ti</h3>
+
+        </section>
+
+    </article>
+
+    <article class="modalContainer close">
+        <div class="modal modalDesigner">
+            <div class="modalHeader">
+                <div class="modalHeaderData">
+                    <img src="./data/images/client.png" alt="">
+                    <p>Cliente</p>
+                </div>
+                <img class="modalHeaderClose" src="./data/images/close.svg" alt="">
+            </div>
+            <div class="jobContent modalContent">
+                <p class='jobMsg'>dfsdfsadadffadafd</p>
+                <div class="jobIcons">
+                    <div>
+                        <img src="./data/images/calendar.svg" alt="">
+                        <p> May 6</p>
+                    </div>
+                    <div>
+                        <img src="./data/images/comment.svg" alt="">
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modalComment">
+                <img src="./data/images/user.png" alt="">
+                <form class="modalForm">
+                    <textarea class="modalFormArea" name="" cols="100%" rows="10"></textarea>
+
+                    <button class="btn btnComment">Comentar</button>
+                </form>
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+<script src="./scripts/authManage.js"></script>
+<script src="./scripts/firebase.js"></script>
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/homeDesigner.js"></script>
+
+
+</html>

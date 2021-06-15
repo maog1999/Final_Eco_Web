@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>WeSign</title>
+</head>
+<body class="register">
+    <form class="registerForm">
+        <h1>Registro</h1>
+
+        <div>
+            <div class="input">
+                <label for="name">Nombre Completo</label>
+                <input type="text" name="name" autocomplete="off" >
+            </div>
+
+            <div class="input">
+                <label for="user">Correo Electrónico</label>
+                <input type="text" name="email" autocomplete="off" >
+            </div>
+
+            <div class="input">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password"  autocomplete="off">
+            </div>
+
+            <div class="input">
+                <label for="phone">Teléfono Celular</label>
+                <input type="number" name="phone"  autocomplete="off">
+            </div>
+
+        </div>
+
+        <div class="registerFormBtns">
+            <button class="btn btnFormType" value="designer">Soy diseñador</button>
+            <button class="btn btnFormType" value="client">Soy cliente</button>
+        </div>
+
+        <p>Al confirmar, aceptas nuestros <u>Terminos y condiciones</u> </p>
+
+        <button type="submit" class="btn btnForm">Ingresar</button>
+
+    </form>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+<script src="./scripts/authManage.js"></script>
+<script src="./scripts/firebase.js"></script>
+<script src="./scripts/register.js"></script>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <title>Home User</title>
+</head>
+<body class="homeUser">
+    
+    <article class="profile profileUser">
+        <section class="profileBg">
+
+            <div class="profileHeader">
+
+                <img src="./data/images/client.png" alt="">
+
+                <h2 class='profileName'>...</h2>
+
+                <div class="profileEdit click">
+                    <img src="./data/images/Lapiz.svg" alt="">
+                    <p><u>Editar Perfil</u></p>
+                </div>
+
+            </div>
+
+            <div class="profileItems">
+                <div class="profileItem">
+                    <img src="./data/images/cake.svg" alt="">
+                    <p class="profileAge">...</p>
+                </div>
+
+                <div class="profileItem ">
+                    <img src="./data/images/job.svg" alt="">
+                    <p class='profileCollege' >...</p>
+                </div>
+
+                <div class="profileItem ">
+                    <img src="./data/images/Lapiz.svg" alt="">
+                    <p class="profilePro">...</p>
+                </div>
+
+                <div class="profileItem">
+                    <img src="./data/images/letter.svg" alt="">
+                    <p class="profileEmail">...</p>
+                </div>
+
+            </div>
+            <div class="profileItem" id="pf2">
+                <p id="logOut"><u>Cerrar Sesión</u></p>
+            </div>
+
+        </section>
+    </article>
+
+    <article class="content createProject">
+
+
+        <section class="createProjectContainer">
+            
+            <h3>Crea una oferta</h3>
+        
+            <p class="category">Categoria</p>
+
+            <div class="categoryContainer">
+
+             <p class="label diseño2D  click" value="diseño2D">Diseño 2D</p>
+             <p class="label modelado3D click"value="modelado3D">Modelado 3D</p>
+             <p class="label video click" value="video">Video y Fotografía</p>       
+
+            </div>
+
+            <textarea name="projectDescription" id="projectDescription" cols="100%" rows="10"></textarea>
+            
+            <button class="btn btnPublish">Publicar Oferta</button>
+        </section>
+
+        <section class="userProjects">
+
+            <div class="userProjectsList scroll">
+
+            </div>
+        </section>
+
+    </article>
+
+    <article class="modalContainer close">
+        <div class="modal modalDesigner">
+            <div class="modalHeader">
+                <div class="modalHeaderData">
+                    <img src="./data/images/client.png" alt="">
+                    <p>institucion</p>
+                </div>
+                <img class="modalHeaderClose" src="./data/images/close.svg" alt="">
+            </div>
+            <div class="jobContent modalContent">
+                <p class='jobMsg'>dfsdfsadadffadafd</p>
+                <div class="jobIcons">
+                    <div>
+                        <img src="./data/images/calendar.svg" alt="">
+                        <p> May 6</p>
+                    </div>
+                    <div>
+                        <img src="./data/images/comment.svg" alt="">
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modalComments">
+    
+                <div class="comment">
+                    <div class="commentHeader">
+                        <div>
+                            <img src="./data/images/user.png" alt="">
+                            <p class="commentHeaderName">name</p>
+                        </div>
+
+                        <button class="btn">Contratar</button>
+                    </div>
+
+                    <p class="commentText">
+                        Tengo una especialización en  modelado 3D y quisiera hacer parte de su priyecto, puede revisar mi portafolio en www.behance.com/DaniMendoza
+                    </p>
+
+                </div>
+
+                <div class="comment">
+                    <div class="commentHeader">
+                        <div>
+                            <img src="./data/images/user.png" alt="">
+                            <p class="commentHeaderName">name</p>
+                        </div>
+
+                        <button class="btn">Contratar</button>
+                    </div>
+
+                    <p class="commentText">
+                        Tengo una especialización en  modelado 3D y quisiera hacer parte de su priyecto, puede revisar mi portafolio en www.behance.com/DaniMendoza
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </article>
+
+    
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+<script src="./scripts/authManage.js"></script>
+<script src="./scripts/firebase.js"></script>
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/homeUser.js"></script>
+
+</html>

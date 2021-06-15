@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Gotham-light";
+    src: url("../data/fonts/GothamPro-Light.woff");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Stinger-fit";
+  src: url("../data/fonts/StingerFitTrial-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');

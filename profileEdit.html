@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>WeSign</title>
+</head>
+<body>
+    <article class="profile profileExpand">
+        <section class="profileBg profileBgExpand">
+
+            <div class="profileHeader">
+
+                <img class="profileImg" src="./data/images/user.png" alt="">
+
+                <h2 class='profileName'>name name name</h2>
+            </div>
+
+            <form action="" class="profileForm">
+                <section>
+                    <div class="input">
+                        <label for="age" class="labelGray">Edad</label>
+                        <input type="number" name="age"  autocomplete="off">
+                    </div>
+                    <div class="input">
+                        <label for="college" class="labelGray">Institución</label>
+                        <input type="text" name="college"  autocomplete="off">
+                    </div>
+                    <div class="input">
+                        <label for="pro" class="labelGray">Profesión</label>
+                        <input type="text" name="pro"  autocomplete="off">
+                    </div>
+
+                </section>
+
+
+                <button type="submit" class="btn btnForm">Cambiar</button>
+            </form>
+
+        </section>
+    </article>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+<script src="./scripts/authManage.js"></script>
+<script src="./scripts/firebase.js"></script>
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/editProfile.js"></script>
+
+</html>

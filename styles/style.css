@@ -1,0 +1,629 @@
+body{
+    margin: 0;
+}
+
+h1{ 
+    font-size: 34px;
+    text-align: center;
+    font-family: "Stinger-fit";
+
+    color: #2C2C2C;
+}
+
+h2{
+    font-size: 27px;
+    text-align: center;
+    font-family: "Stinger-fit";
+    margin: 0px;
+
+    color: #2C2C2C;
+} 
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Stinger-fit";
+    margin: 0px;
+    color: #2C2C2C;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    color: #2C2C2C;
+}
+
+.click{
+    cursor: pointer;
+}
+
+.input{
+    position: relative;
+    margin: 15px 0px;
+}
+
+.input input{
+    background-color: transparent;
+    width: 100%;
+    height: 58px;
+    border-radius: 15px;
+    font-family: "Gotham-light";
+    color: #000000;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+    border: 1px solid #E8E6EA;
+}
+
+.input input:focus{
+    outline: none;
+    border: 1px solid #2C2C2C;
+}
+
+.input label{
+    background-color: #ffffff;
+    padding: 5px;
+    font-family: "Gotham-light";
+    font-size: 11px;
+    color: #999CAD;
+
+    position: absolute;
+    left: 30px;
+    top: -11px;
+}
+
+.labelGray{
+    background-color: #F3F3F3 !important;
+}
+
+.btn{
+    width: fit-content;
+    height: 48px;
+    background: #2C2C2C;
+    border-radius: 10px;
+    font-family: "Gotham-light";
+    font-size: 14px;
+    padding: 0px 20px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.btnForm{
+    width: 100%;
+}
+
+.btnFormType{
+    width: 45%;
+    background-color: transparent;
+    border: 1px solid #E8E6EA;
+
+    color: #2C2C2C;
+}
+
+.btnFormTypeSelected{ 
+    border: 1px solid #2C2C2C;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginForm{
+    width: 335px;
+    height: 411px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.loginForm h1{
+    margin: 0px;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.registerForm{
+    width: 335px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.registerFormBtns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.registerForm h1{
+    margin: 0px;
+}
+
+.registerForm p{
+    font-family: "Gotham-light";
+    font-size: 11px;
+    margin: 0;
+    text-align: center
+}
+
+.homeUser{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.profile{
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.profileExpand{
+    width: 100%;
+    justify-content: center;
+}
+
+.profileBg{
+    position: relative;
+    width: 375px;
+    height: 688px;
+    background-color: #F3F3F3;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 40px;
+    padding-top: 170px;
+    box-sizing: border-box;
+}
+
+.profileBgExpand{
+    width: 780px;
+}
+
+.profileBgExpand .profileItems{
+    width: 60%;
+}
+
+.profileBgExpand .profileHeader{
+    height: 180px;
+}
+
+.profileForm{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding-bottom: 60px;
+}
+
+.profileHeader{
+    width: fit-content;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: -50px;
+}
+
+.profileEdit{
+    display: flex;
+    width: 85px;
+    justify-content: space-between;
+}
+
+.profileEdit p{
+    font-family: "Gotham-light";
+    font-size: 11px;
+}
+
+.profileItems{
+    width: 100%;
+    height: fit-content;
+}
+
+.profileItem{
+    width: 100%;
+    display: flex;
+}
+
+.profileItem img{
+    height: 16px;
+    margin: 5px 0px;
+}
+
+.profileItem p{
+    font-family: "Gotham-light";
+    font-size: 16px;
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+
+#pf2{
+    margin-top: 300px;
+}
+
+.content{
+    width: 800px;
+    height: 688px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.content h3{
+    margin-bottom: 20px;
+}
+
+.jobsContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.job{
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #E8E6EA;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobContent{
+    width:400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.jobMsg{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.jobIcons{
+    display: flex;
+    width: 100%;
+}
+
+.jobIcons img{
+    margin-right: 8px;
+}
+
+.jobIcons div{
+    display: flex;
+}
+
+.jobIcons p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    width: fit-content;
+    margin: 2px 0px;
+    margin-right: 10px;
+
+}
+
+.jobOwner{
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.jobOwner img{
+    width: 78px;
+}
+
+.label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    width: fit-content;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px 10px;
+    border-radius:25px;
+}
+
+.diseño2D{
+    border: 1px solid #FFD600;
+    color: #FFD600;
+}
+
+.video{
+    border: 1px solid #00D1FF;
+    color: #00D1FF;
+}
+
+.videoSelect{
+    background-color: #00D1FF;
+    color: #FFffff;
+}
+
+.diseño2DSelect{
+    background-color: #FFD600;
+    color: #FFffff;
+}
+
+.modelado3D{
+    border: 1px solid #9B51E0;
+    color: #9B51E0;
+}
+
+.modelado3DSelect{
+    background-color: #9B51E0;
+    color: #FFffff;
+}
+.categoryContainer{
+
+    display:flex;
+
+}
+
+.category{
+    margin: 0;
+    margin-bottom: 10px;
+    text-align:left;
+    font-size: 12px;
+}
+
+.createProject{
+
+    display:flex;
+    flex-direction:column;
+}
+.categoryContainer .label{
+
+    margin-right: 10px;
+
+}
+
+.createProjectContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: fit-content ;
+}
+
+.createProjectContainer h3{
+    text-align:left;
+    margin-bottom: 10px;
+}
+
+#projectDescription{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 20px;
+
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E8E6EA;
+    font-size: 14px;
+}
+
+#projectDescription:focus{
+    border: 1px solid #2c2c2c;
+    outline: none;
+}
+.userProjects{
+
+    margin-top:20px;
+    height:350px;
+}
+
+.scroll{
+
+    overflow: scroll;
+}
+
+.userProjectsList {
+
+    height: 310px;
+}
+
+.modalContainer{
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height:100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.modalDesigner{
+    width: 555px;
+}
+
+.modalHeader{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.modalHeaderData{
+    display: flex;
+    align-items:center;
+}
+
+.modalHeaderData img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.modalHeaderData p{
+    text-align: left;
+    margin: 0px;
+}
+
+.modalHeaderClose{
+    width: 15px !important;
+} 
+
+.modalContent{
+    width: 440px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.modalContent .jobMsg{
+    margin-bottom: 20px;
+}
+
+.modalComment{
+    display: flex;
+    margin-top: 20px;
+}
+
+.modalComment img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.modalForm{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.modalFormArea{
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 20px;
+
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E8E6EA;
+    font-size: 14px;
+}
+
+.modalFormArea:focus{
+    border: 1px solid #2c2c2c;
+    outline: none;
+}
+
+.show{
+    display: flex;
+}
+
+.close{
+    display: none;
+}
+
+.modalComments{
+    display: flex;
+    height: 230px;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.modalComments img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.commentHeader{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.commentHeader p{
+    margin: 0px;
+}
+
+.commentHeader div{
+    display: flex;
+    align-items:center;
+}
+
+.commentHeader .btn{
+    height: 35px;
+}
+.commentHeaderName{
+    font-weight: 700;
+}
+
+.commentText{
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    padding:20px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 0px;;
+}
+
+.profileItemsD{
+    width: fit-content !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.btnHire{
+    margin-top: 300px;
+}
